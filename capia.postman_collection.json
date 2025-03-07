@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "5eda2070-ceb9-4fe3-944b-5ed14dccef3b",
+		"name": "capia",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "32614538"
+	},
+	"item": [
+		{
+			"name": "no header upload file",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/kunalarya/Web-Development/FastAPI-api-management/no_header.csv"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:5000/upload_csv"
+			},
+			"response": []
+		},
+		{
+			"name": "test1.csv upload file",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/kunalarya/Web-Development/FastAPI-api-management/test1.csv"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:5000/upload_csv"
+			},
+			"response": []
+		},
+		{
+			"name": "test2.csv upload file",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/kunalarya/Web-Development/FastAPI-api-management/test2.csv"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:5000/upload_csv"
+			},
+			"response": []
+		},
+		{
+			"name": "test3.csv upload file",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/kunalarya/Web-Development/FastAPI-api-management/test3.csv"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:5000/upload_csv"
+			},
+			"response": []
+		}
+	]
+}
